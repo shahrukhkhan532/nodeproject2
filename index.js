@@ -24,7 +24,3 @@ mongoose.connect("mongodb+srv://srk:File348132@spotify.8mswx.mongodb.net/?retryW
         process.exit(1);
     });
 
-app.use("/", (request, response, next) => {
-    response.send("Hello World");
-});
-
